@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "main": "server.js",
-  "author": "Tox",
+  "author": "johntg96",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",

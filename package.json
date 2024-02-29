@@ -1,7 +1,7 @@
 {
-  "name": "vitejs-stack-mern-quickstart",
-  "description": "This is a quick start project template that combines the power of Vite.js and the MERN (MongoDB, Express, React, Node.js) stack. It provides a solid foundation for building modern web applications with a fast development experience.",
-  "author": "Tox",
+  "name": "CryptoCurrent",
+  "description": "CryptoCurrent is a full-stack web application built with the MERN stack",
+  "author": "johntg96",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "prettier": "^3.0.0"
   },
   "scripts": {
-    "dev": "concurrently \"cd server && nodemon server.mjs\" \"cd client && yarn run dev\" \"cd client && yarn run sass\"",
-    "dev-client": "concurrently \"cd client && yarn run dev\" \"cd client && yarn run sass\""
+    "dev": "concurrently \"cd server && nodemon server.mjs\" \"cd client && npm run dev\" \"cd client && npm run sass\"",
+    "dev-client": "concurrently \"cd client && npm run dev\" \"cd client && npm run sass\""
   }
 }
