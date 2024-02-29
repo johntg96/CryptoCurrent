@@ -1,17 +1,17 @@
 {
-  "name": "CryptoCurrent",
+  "name": "cryptocurrent",
   "description": "CryptoCurrent is a full-stack web application built with the MERN stack",
   "author": "johntg96",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "concurrently": "^8.2.0",
+    "nodemon": "^3.1.0",
     "prettier": "^3.0.0"
   },
   "scripts": {
-    "dev": "concurrently \"cd server && nodemon server.mjs\" \"cd client && npm run dev\" \"cd client && npm run sass\"",
-    "dev-client": "concurrently \"cd client && npm run dev\" \"cd client && npm run sass\""
+    "dev": "concurrently \"cd server && nodemon server.mjs\" \"cd client && npm run dev\"",
+    "dev-client": "concurrently \"cd client && npm run dev\""
   }
 }
