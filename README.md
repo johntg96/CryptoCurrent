@@ -10,9 +10,7 @@ Current main goal:
     * Charts
 
 Extended goals:
-
 * Login/signup (supporting OAuth)
-
 * News articles
     * Comment Section
 
