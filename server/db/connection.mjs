@@ -1,12 +1,11 @@
 import mongoose from 'mongoose'
+import 'dotenv/config'
 
-const connectionString = process.env.ATLAS_URI || ''
+const connectionString = process.env.MONGODB_URI || ''
+console.log(connectionString);
 
 mongoose
-  .connect(connectionString, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(connectionString)
   .then(() => {
     console.log('Connected to MongoDB')
   })
